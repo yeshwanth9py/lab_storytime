@@ -6,7 +6,8 @@ var nextString = [
     "Karen's new friend",
     "Lily's investigation",
     "Haunting discovery",
-    "Rising paranoia"
+    "Rising paranoia",
+    "Challenge 1"
 ];
 function updateProgression(i, p) {
     filler.innerHTML = "Task: Complete Trial " + (i + 1) + "<br>Next: " + nextString[i];
